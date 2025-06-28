@@ -44,16 +44,20 @@ python app.py <target_ip_address>
 # For a URL target:
 python app.py http://example.com
 ```
-📝 Project Highlights
-Built with multiprocessing to parallelize SQL injection checks for faster execution.
+## 📝 Project Highlights
 
-Combines directory brute-forcing with hard-coded vulnerable endpoints.
+✅ **Built with multiprocessing** to parallelize SQL injection checks for faster execution.
 
-Filters discovered paths based on HTTP status codes for accuracy.
+✅ **Combines directory brute-forcing** with hard-coded vulnerable endpoints.
 
-Displays detailed scan summaries including total scans, vulnerabilities found, and safe entries.
+✅ **Filters discovered paths** based on HTTP status codes for accuracy.
 
-⚠️ Disclaimer
-This toolkit is for educational and authorized security testing purposes only. Never scan systems you do not own or have explicit permission to test. Unauthorized scanning may be illegal.
+✅ **Displays detailed scan summaries** including total scans, vulnerabilities found, and safe entries.
 
+---
+
+## ⚠️ Disclaimer
+
+🚨 **This toolkit is for educational and authorized security testing purposes only.**  
+Never scan systems you do not own or have explicit permission to test. Unauthorized scanning may be illegal.
 
