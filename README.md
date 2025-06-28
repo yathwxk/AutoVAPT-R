@@ -30,23 +30,20 @@ AutoVAPT-R is an *automated Web Vulnerability Assessment and Penetration Testing
    ```bash
    git clone https://github.com/yathwxk/AutoVAPT-R.git
    cd AutoVAPT-R
-Install Python requirements
+   ```
+2. **Install Python requirements**
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 Run the scanner
-
-bash
-Copy
-Edit
+```bash
 # For an IP target:
 python app.py <target_ip_address>
 
 # For a URL target:
 python app.py http://example.com
-
+```
 📝 Project Highlights
 Built with multiprocessing to parallelize SQL injection checks for faster execution.
 
@@ -59,6 +56,4 @@ Displays detailed scan summaries including total scans, vulnerabilities found, a
 ⚠️ Disclaimer
 This toolkit is for educational and authorized security testing purposes only. Never scan systems you do not own or have explicit permission to test. Unauthorized scanning may be illegal.
 
-yaml
-Copy
-Edit
+
