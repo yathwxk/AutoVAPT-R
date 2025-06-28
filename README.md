@@ -36,7 +36,7 @@ AutoVAPT-R is an *automated Web Vulnerability Assessment and Penetration Testing
 ```bash
 pip install -r requirements.txt
 ```
-Run the scanner
+3. **Run the scanner**
 ```bash
 # For an IP target:
 python app.py <target_ip_address>
